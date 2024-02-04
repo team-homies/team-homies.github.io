@@ -12,21 +12,21 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" # 블로그의 색감테마
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+locale                   : "ko-KR" # 블로그의 주요 언어
+title                    : "We Are Homies" # 사이트 탭에서 보이는 이름
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+subtitle                 : "We Are Homies" # 화면 title 하단에 있는 소제목
+name                     : "Homies"
+description              : "Almost heaven, West Virginia" # 설명란
 url                      : "https://team-homies.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+baseurl                  : # 폴백(예기치 못한 오류)일 때 연결되는 url
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes" # Github Repo url
+teaser                   : # 폴백일 때 보일 이미지, e.g. "/assets/images/500x300.png"
+logo                     : # 화면에 보여지는 logo 이미지, e.g. "/assets/images/88x88.png"
+masthead_title           : "호밋스"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -104,10 +104,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "Team Homies" # 이름 영역
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"  # 프로필 사진 경로
+  bio              : "개발<br>밤샘<br>과제"
+                    # biography의 약칭으로, 자기소개
+  location         : "Republic of Korea"
   email            :
   links:
     - label: "Email"
