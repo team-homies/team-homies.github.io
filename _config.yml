@@ -26,7 +26,7 @@ baseurl                  : # 폴백(예기치 못한 오류)일 때 연결되는
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes" # Github Repo url
 teaser                   : # 폴백일 때 보일 이미지, e.g. "/assets/images/500x300.png"
 logo                     : # 화면에 보여지는 logo 이미지, e.g. "/assets/images/88x88.png"
-masthead_title           : "호밋스"
+masthead_title           : "피자를 좋아하는 개발자들"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -105,52 +105,52 @@ analytics:
 # Site Author
 author:
   name             : "Team Homies" # 이름 영역
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"  # 프로필 사진 경로
-  bio              : "개발<br>밤샘<br>과제"
+  avatar           : "https://velog.velcdn.com/images/wg_cat/post/af334708-5491-4da0-9210-43eb9098e69b/image.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"  # 프로필 사진 경로
+  bio              : "배움에 열정적이며<br>지식과 기술을 끊임없이<br>발전시켜 나가는 조직"
                     # biography의 약칭으로, 자기소개
   location         : "Republic of Korea"
   email            :
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   # url: "mailto:your.name@email.com"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      url: "https://github.com/team-homies"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   # url:
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/team-homies"
+    # - label: "GitLab"
+    #   icon: "fab fa-fw fa-gitlab"
+    #   # url:
+    # - label: "Bitbucket"
+    #   icon: "fab fa-fw fa-bitbucket"
+    #   # url:
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   # url:
 
 
 # Reading Files
